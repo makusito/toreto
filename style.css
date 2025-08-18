@@ -1,0 +1,23 @@
+*{
+	font-family: sans-serif;
+}
+body{
+    background-image: url(fondos.webp);
+    background-attachment: fixed;
+    background-size: 70%;
+
+}
+header{
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: larger;
+}
+.bot{
+    padding: 10px 15px 10px 15px;
+    font-size: larger;
+    border:none;
+    border-radius: 15px;
+}
