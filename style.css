@@ -1,23 +1,61 @@
-*{
-	font-family: sans-serif;
+* {
+	font-family:monospace;
+}
+div{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    padding: 20px;
+}
+p{
+    padding: 10px;
 }
 body{
     background-image: url(fondos.webp);
     background-attachment: fixed;
-    background-size: 70%;
+    background-size: cover;
 
 }
 header{
     padding: 10px;
+    margin: -8px;
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 2px solid black;
     text-align: center;
     font-size: larger;
 }
-.bot{
+.botL{
     padding: 10px 15px 10px 15px;
     font-size: larger;
     border:none;
     border-radius: 15px;
+    background-size: cover;
+    color: white;
+    background-image: url(blore.webp);
+}
+.botU{
+    -webkit-text-stroke: 2px solid black;
+    padding: 10px 15px 10px 15px;
+    font-size: larger;
+    border:none;
+    border-radius: 15px;
+    background-size: cover;
+    color: gold;
+    background-image: url(fondoU.jpeg);
+}
+.botG{
+    padding: 10px 15px 10px 15px;
+    font-size: larger;
+    border:none;
+    border-radius: 15px;
+    background-size: cover;
+}
+.botF{
+    padding: 10px 15px 10px 15px;
+    font-size: larger;
+    border:none;
+    border-radius: 15px;
+    background-size: cover;
 }
